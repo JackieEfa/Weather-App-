@@ -1,0 +1,68 @@
+
+.temp {
+    font-size: 50px;
+    font-family: 'Sriracha', cursive;
+}
+
+html { 
+/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#b7deed+0,21b4e2+100,b7deed+100 */
+background: #b7deed; /* Old browsers */
+background: -moz-linear-gradient(top,  #b7deed 0%, #21b4e2 100%, #b7deed 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #b7deed 0%,#21b4e2 100%,#b7deed 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #b7deed 0%,#21b4e2 100%,#b7deed 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b7deed', endColorstr='#b7deed',GradientType=0 ); /* IE6-9 */
+height: 100vh;
+}
+
+h1 { 
+    font-size: 30px;
+    font-family: 'Sriracha', cursive;
+    color: aliceblue;
+}
+
+h2 {
+    font-size: 20px;
+    font-family: 'Bad Script', cursive;
+    color: rgb(10, 91, 162);
+}
+
+h3 {
+    font-size: medium;
+    font-family: 'Sriracha', cursive;
+    color: aliceblue;
+}
+
+h4 {
+    color: darkblue;
+}
+
+h5 {
+    color: rgb(46, 129, 165);
+}
+
+h6 {
+    color: rgb(255, 230, 0);
+}
+
+header { 
+    max-width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+.flex-container {
+    margin-top: 160px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.flex-container > div {
+    min-width: 40vw;
+    min-height:  30vw;
+}
+
+main { 
+    text-align: center;
+}
